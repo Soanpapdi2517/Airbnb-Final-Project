@@ -1,0 +1,32 @@
+{
+  "name": "chapter-19-authentication-and-authorization",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx @tailwindcss/cli -i ./views/input.css -o ./public/output.css --watch",
+    "start": "nodemon app.js & npm run tailwind"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "autoprefixer": "^10.4.21",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "connect-mongodb-session": "^5.0.0",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.1",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.3",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10"
+  }
+}
