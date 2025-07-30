@@ -86,7 +86,7 @@ exports.postLogout = (req, res, next) => {
 // Sign up related 👇🏼
 
 exports.getSignUp = (req, res, next) => {
-  res.render("auth/signup", {
+  res.render("auth/signUp", {
     pageTitle: "SignUp",
     currentPage: "Sign-Up",
     isLoggedIn: req.session.isLoggedIn,
